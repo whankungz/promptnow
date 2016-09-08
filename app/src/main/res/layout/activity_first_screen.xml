@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+
+    tools:context="com.promptnow.econprice.activity.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" />
+
+    <Button
+        android:text="แนะนำการใช้งาน"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="133dp"
+        android:id="@+id/button"
+        android:elevation="0dp"
+        android:textColor="#434343"
+        android:background="#E6E6FA"
+        />
+
+    <Button
+        android:text=">>> SKIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:id="@+id/skip"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/econp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
